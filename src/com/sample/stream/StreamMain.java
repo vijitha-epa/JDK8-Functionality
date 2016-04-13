@@ -1,4 +1,4 @@
-package com.sample.lambda;
+package com.sample.stream;
 
 import java.util.Arrays;
 import java.util.Collection;

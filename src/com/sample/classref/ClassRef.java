@@ -1,4 +1,4 @@
-package com.sample.lambda;
+package com.sample.classref;
 
 import java.util.ArrayList;
 import java.util.Arrays;
