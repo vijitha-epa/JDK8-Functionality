@@ -4,9 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * This class demonstrate the method referencing for 
- * 1 - Constructor
- * 2 - static method.
+ * This class demonstrate the method referencing for 1 - Constructor 2 - static
+ * method.
  * 
  * @author vijitha
  *
@@ -18,6 +17,10 @@ public class MethodRef {
 		List<Employee> empList = Arrays.asList(empFactory.create(10, "Frank Peter"),
 				empFactory.create(8, "John Carpenter"));
 
-		empList.forEach(System.out::println);
+		empList.forEach(MethodRef::showEmployee);
+	}
+
+	public static void showEmployee(Employee employee) {
+		System.out.println("Employee : " + employee.getId() + " : " + employee.getName());
 	}
 }

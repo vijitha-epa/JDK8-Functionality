@@ -16,6 +16,14 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + "]";
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
 	
 	
 }
