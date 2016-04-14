@@ -1,11 +1,11 @@
-package com.sample.classref;
+package com.sample.methodref;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class ClassRef {
+public class MethodRef {
 
 	public static void main(String[] args) {
 		List<String> names = new ArrayList<>();
