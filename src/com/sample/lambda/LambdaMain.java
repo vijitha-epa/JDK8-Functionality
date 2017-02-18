@@ -22,6 +22,7 @@ public class LambdaMain {
 
 	}
 
+	@FunctionalInterface
 	interface MathCalc {
 		int calculate(int x, int y);
 	}

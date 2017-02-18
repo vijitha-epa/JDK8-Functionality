@@ -1,5 +1,11 @@
 # JDK8-Functionality
 
-This is to excercise the Java 8 new features
+###This project experiment on new Java 8 features.
 
-continue...
+####Below are the features implemented in this project
+
+1 - Lambda function
+2 - Method reference
+3 - Predicate usage
+4 - Stream functionality
+5 - Cont...
