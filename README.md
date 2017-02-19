@@ -4,8 +4,8 @@
 
 ####Below are the features implemented in this project
 
-1 - Lambda function
-2 - Method reference
-3 - Predicate usage
-4 - Stream functionality
-5 - Cont...
+1. Lambda function
+2. Method reference
+3. Predicate usage
+4. Stream functionality
+5. Cont...
